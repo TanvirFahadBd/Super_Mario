@@ -420,10 +420,10 @@ function showScreen(title, body) {
     <h2>${title}</h2>
     <p>${body}</p>
     <div id="worldSelect" style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:4px;">
-      <button class="wb" style="background:#3a7a00;border-color:#5aaa10;" onclick="startGame(0)">🌿 W1<br><small>Grassland</small></button>
-      <button class="wb" style="background:#4a3010;border-color:#8a6030;" onclick="startGame(1)">🪨 W2<br><small>Underground</small></button>
-      <button class="wb" style="background:#a06010;border-color:#e08820;" onclick="startGame(2)">🏜️ W3<br><small>Desert</small></button>
-      <button class="wb" style="background:#1a0a3a;border-color:#6030a0;" onclick="startGame(3)">🌙 W4<br><small>Castle</small></button>
+      <button class="wb" style="background:#3a7a00;border-color:#5aaa10;" onclick="startGame(0)"> W1<br><small>Grassland</small></button>
+      <button class="wb" style="background:#4a3010;border-color:#8a6030;" onclick="startGame(1)"> W2<br><small>Underground</small></button>
+      <button class="wb" style="background:#a06010;border-color:#e08820;" onclick="startGame(2)"> W3<br><small>Desert</small></button>
+      <button class="wb" style="background:#1a0a3a;border-color:#6030a0;" onclick="startGame(3)"> W4<br><small>Castle</small></button>
     </div>
     <p style="margin-top:4px;font-size:9px;color:#666;">Developed by Tanver Fahat</p>
   `;

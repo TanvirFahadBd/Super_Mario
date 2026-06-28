@@ -11,7 +11,8 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    font-family: 'Courier New', monospace;
+    /* font-family: 'Courier New', monospace; */
+    font-family: "Georgia", serif;
     color: #fff;
 }
 
@@ -118,9 +119,12 @@ canvas {
 .wb {
     padding: 10px 14px;
     font-size: 10px;
-    font-family: inherit;
-    border: 2px solid #555;
-    border-radius: 5px;
+    /* font-family: cursive; */
+    font-family: system-ui;
+    /* font-family: inhe; */
+    /* border: 2px solid #555; */
+    /* border-radius: 5px; */
+    border: none;
     cursor: pointer;
     color: #fff;
     letter-spacing: 1px;
